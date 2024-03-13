@@ -1,0 +1,782 @@
+/* Creating Header part start */
+.headerContainer {
+    background-color: rgb(234,240,238);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -10px;
+}
+
+.headerLogo {
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+.headerUl {
+    list-style: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    left: 350px;
+}
+
+.headerAnchor {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headerSpan {
+    color: rgb(3, 98, 3);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.IconOfHeader {
+    padding: 10px;
+    position: relative;
+    left: 350px;
+    top: 18px;
+}
+    
+
+
+/* end the header part */
+/* about us page start */
+.AboutPara1{
+    color:green;
+    font-weight:bold;
+    font-size:25px;
+    margin-top:120px;
+}
+.AboutPageHeading1{
+    color:black;
+    font-size:34px;
+    margin-top:-20px;
+}
+.AboutpageContainer{
+    text-align: center;
+}
+.aboutImg{
+    height:500px;
+    width:700px;
+}
+.aboutIcons1{
+    border:1px solid grey;
+    width:180px;
+    height:30px;
+    padding:10px;
+    color:green;
+    padding-top:30px;
+    font-size:18px;
+    padding-right:5px;
+    background-color: grey;
+}
+.IconAboutSpan{
+    font-size:16px;
+    color:rgb(1, 1, 65);
+}
+/* end th about page */
+/* blog page start */
+.headingOfPrice{
+    text-align: center;
+    font-size:30px;
+    margin-top: 120px;;
+}
+.headingofordering{
+    text-align: center;
+    font-size:30px;
+    margin-top: 120px;
+    margin-top:-40px;
+}
+.headingofpayments{
+    text-align: center;
+    font-size:30px;
+    margin-top: 120px;
+    margin-top:-40px;
+}
+.headingofAccountManagement{
+    text-align: center;
+    font-size:30px;
+    margin-top: 120px;
+    margin-top:-40px;
+}
+.headingOfsuggestionand{
+    text-align: center;
+    font-size:30px;
+    margin-top: 120px;
+    margin-top:-40px;
+}
+.Pricinghead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:-30px;
+    margin-left:30px;
+    margin-right:30px;
+    
+}
+.headingOfquestions{
+    font-size: 25px;
+}
+.paragraph1{
+    font-size:18px;
+    color:grey;
+}
+
+.OrderingHead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:30px;
+    margin-right:30px;
+}
+.paymentsHead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:30px;
+    margin-right:30px;
+}
+.AccountManagementHead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:30px;
+    margin-right:30px;
+}
+.suggestionandFeedbackHead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: -10px;
+}
+
+/* end the blog part */
+/* contactUs page start */
+.contactusmain{
+    margin-top: 120px;
+}
+.contactUsHeading{
+    color:black;
+    font-size:30px;
+    text-align:center;
+}
+.contactusbgContainer{
+    background-color: rgb(196, 191, 191);
+    width:1200px;
+    height:800px;
+    position: relative;
+    left:350px;
+    border-radius: 10px;
+}
+.headingoffirstname{
+    color:rgb(47, 46, 46);
+    font-size:20px;
+    padding:10px;
+    font-weight:100
+}
+.firstname{
+    width:800px;
+    height:50px;
+    border-radius: 10px;
+    border:1px solid  white;
+    box-shadow: white;
+    margin:10px;   
+}
+.subjectname{
+    width:800px;
+    height:250px;
+    border-radius: 10px;
+    border:1px solid  white;
+    box-shadow: white;
+    margin:10px;   
+}
+.newClient{
+    padding:10px;
+}
+.firstnamecontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:20px;
+    padding-top:20px;
+}
+.buttondiv{
+    text-align: end;
+}
+.button1{
+    background-color: rgb(61, 60, 60);
+    height:40px;
+    width:100px;
+    color:white;
+    border:0px;
+    border-radius: 5px;
+    margin:10px;
+}
+.endDescription{
+    color:rgb(47, 46, 46);
+    font-size: 20px;
+    font-weight: 100;
+    padding:10px;
+}
+
+
+
+/* end the contactus page */
+.ImagesContainer{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.anchorHead{
+    margin-top:30px;
+    height:30px;
+    width:140px;
+}
+.Anchor{
+    background-color: rgb(1, 1, 54);
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 5px;
+    
+}
+.heading11{
+    color:black;
+    font-size:30px;
+}
+.para11{
+    color:grey;
+    font-size: 20px;
+}
+/* .iconsContainer{
+    background-color: rgb(173, 161, 161);
+} */
+
+
+
+
+
+
+
+
+/* end the about us page */
+/* creating the banner part */
+/* .banner {
+    background-image: url("/image/hero4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:500px;
+    margin: -8px;
+    margin-top: 10px;
+    padding:180px;
+} */
+.banner {
+    background-image: url("/image/hero4.png");
+    background-size: cover; /* Changed 'contain' to 'cover' for better fitting */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    padding: 50px; /* Reduced padding for better proportion */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+    /* Removed negative margin and excessive margin-top */
+}
+
+
+.bannerPara {
+    color: rgb(11, 10, 10);
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.bannerHeader1 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -25px;
+    padding-left: 10px;
+}
+
+.bannerHeader2 {
+    color: rgb(0, 132, 0);
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+
+.bannerpara2 {
+    color: black;
+    font-size: 15px;
+    margin-top: -20px;
+    padding-left: 12px;
+
+}
+
+.bannerpara3 {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: -30px;
+    top: 13px;
+
+}
+
+.insideBannerContainer {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.bannershopnowbg {
+    background-image: url("/image/button.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    background-size: contain;
+    width: 300px;
+}
+
+/* end the banne part */
+/* create the banner2 part */
+.banner1insideContainer {
+    width: 200px;
+    height: 240px;
+    border: 1px solid grey;
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 2px solid grey;
+    margin-left: 40px;
+}
+
+.featuresImg {
+    width: 180px;
+    height: 120px;
+    padding-top: 30px;
+}
+
+.featuresButton {
+    background-color: rgb(237, 175, 195);
+    height: 50px;
+    width: 140px;
+    margin: 10px;
+    border-radius: 3px;
+    margin-left: 30px;
+
+}
+
+.dataOfButton {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(3, 84, 3);
+    font-size: 18px;
+}
+
+.banner2Container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 35px;
+    margin-top: -50px;
+}
+
+/* end the banner2 part */
+/* create the featuresproduct part */
+.featuresproductsContainer1 {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding-left: 50px;
+    padding-left: 120px;
+}
+.featuresproductsshopContainer1 {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding-left: 120px;
+    margin-top: 130px;
+}
+.featuresproductsshopContainer2 {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding-left: 120px;
+    margin-top: 130px;
+}
+
+.featuresheadingMain {
+    text-align: center;
+}
+
+.featuresProductsHeading {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.featuresProductspara {
+    font-size: 15px;
+    color: black;
+    margin-top: -20px;
+}
+
+.featuresProducts1 {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.productsImg {
+    width: 270px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.starsIconDiv {
+    padding: 10px;
+    margin-top: -30px;
+}
+
+
+.starIcons {
+    color: gold;
+
+
+}
+
+.dollarofPara {
+    font-size: 20px;
+    color: green;
+    margin-top: -5px;
+    padding: 10px;
+}
+
+.cartIcon {
+    color: green;
+    background-color: grey;
+    border-radius: 50%;
+    width: 20px;
+    height: 10px;
+    padding: 10px;
+    margin-top: -40px;
+    position: relative;
+    left: 220px;
+    bottom: 47px;
+}
+
+.para1 {
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 15px;
+    color: grey;
+    margin-left: 3px;
+}
+
+.heading1 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: -23px;
+    padding: 10px;
+}
+
+/* end the features part */
+/* create the banner2 part */
+.banner2 {
+    background-image: url("/image/banner/b2.jpg");
+    width:100wh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin: -8px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner2Para {
+    color: white;
+    font-size: 20px;
+}
+
+.banner2Heading {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.banner2Anchor {
+    color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* end the new arrival part */
+/* create the below the new arrival part */
+.banner3Container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 20px;
+    padding: 50px;
+    padding-left:160px ;
+    
+   
+}
+
+.banner3 {
+    background-image: url("/image/banner/b17.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 700px;
+    padding:30px;
+    margin-right: 30px;
+
+}
+
+.banner311 {
+    background-image: url("/image/banner/b10.jpg");
+    height: 300px;
+    width: 700px;
+    background-size: cover;
+
+    /* padding-left: -20px; */
+    padding: 30px;
+    margin-right: 1200px;
+
+    /* background-repeat: no-repeat; */
+}
+
+.banner3Para {
+    color: white;
+    font-size: 15px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.banner3heading {
+    color: white;
+    font-size: 25px;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.banner3para2 {
+    color: white;
+    font-size: 14px;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.banner3Anchor {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    
+}
+.banner3AnchorContainer{
+    padding-left:20px;
+    padding-top:10px;
+}
+.banner320{
+    background-image: url("/image/banner/b7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:250px;
+    width:500px;
+    margin-left: 42px;
+    
+    
+}
+.banner321{
+    background-image: url("/image/banner/b4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:250px;
+    width:500px;
+    margin-left: 20px;
+
+}
+.banner322{
+    background-image: url("/image/banner/b18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:250px;
+    width:500px;
+    margin-right:145px;
+    margin-bottom: 70px;
+
+}
+.banner320Container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left:120px;
+    padding-right: 35px;
+    
+}
+.banner320heading{
+    color:white;
+    font-size:23px;
+    margin-top:50px;
+    padding:10px;
+    padding-left:20px;
+    padding-top:20px;
+
+}
+.banner320para{
+    color:red;
+    font-size:17px;
+    margin-top:-30px;
+    padding:10px;
+    padding-left:20px;
+}
+/* end the below new arrival part */
+.footerabovebanner{
+    background-image: url("/image/banner/b14.png");
+    background-repeat: no-repeat;
+    height:200px;
+    width:100wh;
+    margin:-8px;
+    margin-top:20px;
+    background-color: rgb(0, 0, 43);
+}
+.footerabovebannerContainer{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.banner4heading{
+    padding:10px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    padding-top:50px;
+}
+.banner4para{
+    color:grey;
+    font-size:20px;
+    margin-top: -25px;
+    padding:10px;
+}
+.banner4span{
+    color:yellow;   
+}
+.inputContainer{
+    padding:10px;
+    
+}
+.bannerheadercontainer{
+   margin-left: 50px;
+}
+.emailInput{
+   padding:10px;
+   margin-left:10px;
+   height:21px;
+   padding-right: 100px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border: 0px;
+   margin-top: 70px;
+   margin-left:90px;
+}
+.signUp{
+   border:0px solid white;
+   background-color: green;
+   color:black;
+   padding:15px;
+   text-decoration: none;
+   padding-top: 10px;
+   padding-bottom: 13px; 
+   margin-left: -4px;
+}
+/* end the footerabovebanner part */
+/* create the footer part start */
+.footersection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footerLogo {
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 35px; 
+}
+.footerheader1{
+    color:black;
+    font-size:20px;
+    position: relative;
+    left: 35px;
+    
+}
+.aboutmain{
+    margin-left:120px;
+}
+.myaccountMain{
+    margin-left:50px;
+}
+.footerpara1{
+    color:grey;
+    font-size:15px;
+    position: relative;
+    left: 35px;
+    
+}
+.footerSpan1{
+    color:rgb(52, 50, 50);
+    font-size:15px;
+    
+}
+.footerheading2{
+    color:black;
+    font-size:20px;
+    position: relative;
+    left: 35px;
+}
+.footerIcon1{
+    position: relative;
+    left: 35px;
+    color:grey;
+}
+
+.footerIcon1:hover{
+    background-color: green;
+    padding:10px;  
+    border-radius: 5px;
+}
+.contactMain{
+    margin-left: 20px;
+}
+.footerHeading3{
+    color:black;
+    font-size:20px;
+}
+
+.footerpara2{
+    color:grey;
+    
+}
+.footerPayAndPlayButton{
+    border:1px solid green;
+    background-color: whitesmoke;
+    border-radius:5px;
+    padding:5px;
+    height:40px;
+    width:130px;
+}
+.footerparaend{
+    color:grey;
+    font-size:15px;
+}
+
+
+
